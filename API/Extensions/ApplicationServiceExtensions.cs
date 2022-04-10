@@ -14,7 +14,7 @@ using Microsoft.OpenApi.Models;
 using Persistence;
 
 namespace API.Extensions
-{
+{//
     public static class ApplicationServiceExtensions
     {
         public static IServiceCollection AddApplicationServices(this IServiceCollection services,
