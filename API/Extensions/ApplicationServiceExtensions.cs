@@ -30,7 +30,7 @@ namespace API.Extensions
 
                 string connStr=config.GetConnectionString("DefaultConnection");
 
-                // Depending on if in development or production, use either Heroku-provided .
+                // Depending on if in development or production, use either Heroku-provided test.
                 // connection string, or development connection string from env var.
                 if (env == "Development")
                 {
